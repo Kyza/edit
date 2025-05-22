@@ -1698,7 +1698,7 @@ impl<'a> Context<'a, '_> {
         self.block_begin(classname);
         self.attr_float(FloatSpec { anchor: Anchor::Root, ..Default::default() });
         self.attr_intrinsic_size(Size { width: self.tui.size.width, height: self.tui.size.height });
-        self.attr_background_rgba(self.indexed_alpha(IndexedColor::Background, 1, 2));
+        self.attr_background_rgba(self.indexed_alpha(IndexedColor::Background, 0, 2));
         self.attr_foreground_rgba(self.indexed_alpha(IndexedColor::Background, 1, 2));
         self.attr_focus_well();
 

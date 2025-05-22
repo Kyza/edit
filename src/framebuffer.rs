@@ -60,7 +60,7 @@ pub const INDEXED_COLORS_COUNT: usize = 18;
 pub const DEFAULT_THEME: [u32; INDEXED_COLORS_COUNT] = [
     0xff000000, 0xff212cbe, 0xff3aae3f, 0xff4a9abe, 0xffbe4d20, 0xffbe54bb, 0xffb2a700, 0xffbebebe,
     0xff808080, 0xff303eff, 0xff51ea58, 0xff44c9ff, 0xffff6a2f, 0xffff74fc, 0xfff0e100, 0xffffffff,
-    0xff000000, 0xffffffff,
+    0x00000000, 0xffffffff,
 ];
 
 /// A shoddy framebuffer for terminal applications.
